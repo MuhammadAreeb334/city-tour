@@ -1,0 +1,79 @@
+body{
+    margin:auto 0;
+    font-family: 'Calibri';
+    text-align: center;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    height: 400px;
+    width: 100%;
+    background-image: url(images/karchi.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+}
+#title{
+    margin: 150px auto 0px;
+    background-color: darkslategray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#para{
+    margin-top: 10px;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;    
+    width: 450px;
+}
+.center-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.heading{
+    margin-bottom: 0px;
+}
+.about{
+    margin-top: 5px;
+}
+#center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F6F0BC;
+    
+}
+#places-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.places{
+    width: 160px;
+}
+#guide{
+    margin: 50px auto;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #a2d2ff;
+    border-bottom: 6px solid black;
+}
+#guide-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+#guide-bio{
+    text-align: center;
+    margin: 10px auto;
+    padding: 0px 10px;
+}
+.guide-about{
+        font-style: italic ;
+}
